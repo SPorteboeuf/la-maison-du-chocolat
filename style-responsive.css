@@ -1,0 +1,84 @@
+@media (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 15px 80px;
+    }
+
+    nav {
+        margin-top: 30px;
+    }
+
+    /* Par ici */
+    .par-ici {
+        background-size: 165%;
+    }
+
+    /* valeurs */
+    .valeurs {
+        flex-direction: row;
+        width: 100%;
+        height: 100px;
+        padding: 20px 80px;
+        align-items: space-evenly;
+        gap: 30px;
+        margin: 50px 25px;
+    }
+
+    .valeurs img {
+        margin-bottom: 30px;
+    }
+
+    .valeurs p {
+        margin-top: 10px;
+    }
+
+    /* Offres & actus */
+    .container {
+        flex-direction: row;
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    .club {
+        width: 700px;
+        margin: 30px 5px 50px 80px;
+    }
+
+    .actus {
+        width: 700px;
+        margin: 30px 80px 50px 5px;
+    }
+
+    .actus h2 {
+        padding: 15px 0px;
+    }
+
+    .actus p {
+        padding: 10px 10px;
+    }
+
+    .actus-texte button {
+        margin-top: 20px;
+    }
+
+    .contact h2 {
+        margin: 20px 250px;
+    }
+
+    .contact p {
+        margin: 0px 100px;
+    }
+
+    .contact form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .mail {
+        padding: 0px;
+    }
+
+}

@@ -1,0 +1,235 @@
+/* Paramètres par défaut */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 8px;
+    text-align: center;
+}
+
+/* En-tête */
+.logo {
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+nav li {
+    text-decoration: none;
+    font-size: 8px;
+    margin-right: 8px;
+}
+
+.titre {
+    display: block;
+    font-weight: bold;
+}
+
+/* Par ici */
+.par-ici {
+    background-image: url("images/main.jpg");
+    background-repeat: no-repeat;
+    height: 250px;
+    background-position: center;
+    background-size: 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+span.titre {
+    color: white;
+    font-size: 25px;
+}
+
+button {
+    border: none;
+}
+
+.par-ici button {
+    background-color: #E83B89;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-top: 50px;
+    position: bottom;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+/* valeurs */
+.valeurs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 25px;
+}
+
+.valeurs img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Offres & actus */
+.container {
+    background-color: #ECECEC;
+    height: 560px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.club {
+    width: 90%;
+    margin: 40px 15px 5px 20px;
+    background-image: url("images/article-image-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 230px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.club-texte {
+    width: 42%;
+    height: 100%;
+    background-color: white;
+    border-radius: 8px 0px 0px 8px;
+    padding: 20px 15px;
+}
+
+.club-texte h2 {
+    font-size: 18px;
+    border-bottom: 2px solid lightgray;
+    padding: 15px 10px;
+}
+
+.club-texte p {
+    font-style: italic;
+    margin-top: 25px;
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+.club button {
+    background-color: #E83B89;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.actus {
+    width: 90%;
+    margin: 5px 15px 40px 20px;
+    gap: 20px;
+    background-image: url("images/article-image-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 230px;
+    border-radius: 8px;
+}
+
+.actus-texte {
+    width: 42%;
+    height: 100%;
+    background-color: white;
+    border-radius: 8px 0px 0px 8px;
+    padding: 20px 8px;
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+.actus-texte h2 {
+    font-size: 18px;
+    border-bottom: 2px solid lightgray;
+    padding: 15px 10px;
+}
+.actus-texte p {
+    font-style: italic;
+    margin-top: 0px;
+    padding: 20px 15px;
+}
+
+.actus-texte button {
+    background-color: #E83B89;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+/* contactez-nous */
+.contact h2 {
+    padding: 10px;
+    border-bottom: 2px solid lightblue;
+    font-size: 18px;
+}
+
+.contact p {
+    padding: 10px;
+}
+
+.contact form {
+    padding: 10px;
+    font-size: 10px;
+}
+
+.mail {
+    padding: 10px;
+}
+
+.contact button {
+    background-color: #E83B89;
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* footer */
+footer {
+    background-color: #444444;
+    height: 150px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    padding: 6px 4px;
+    margin-left: 5px;
+}
